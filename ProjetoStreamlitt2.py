@@ -38,7 +38,7 @@ def main():
 
 
     # SIDEBAR
-    image = Image.open(fp=r"G:\Ebac 2\Modulo 19 Streamlit II\6d642553dfa669bdb1a53fde683b686351c929858bad68e461937802.jpg")
+    image = Image.open(fp=r"https://raw.githubusercontent.com/sanregi/MOD-19/main/6d642553dfa669bdb1a53fde683b686351c929858bad68e461937802.jpg")
     st.sidebar.image(image=image)
 
     # TÍTULO
