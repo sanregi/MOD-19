@@ -44,6 +44,9 @@ def main():
     response = requests.get(url)
     image = Image.open(BytesIO(response.content))
 
+    # Exibir a imagem na barra lateral
+    st.sidebar.image(image=image)
+
     # TÍTULO
     st.markdown('''
     <div style="text-align:center">
